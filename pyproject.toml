@@ -1,0 +1,28 @@
+[project]
+name = "bondspot-scraper"
+version = "0.1.0"
+description = "A script for downloading and parsing data from the BondSpot service"
+authors = [
+    { name = "Paweł Jakubowski", email = "pawel01jakubowski@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "requests>=2.32.3",
+    "pandas>=2.2.3",
+    "beautifulsoup4>=4.13.4",
+    "lxml>=5.4.0",
+    "urllib3>=2.4.0",
+    "tqdm>=4.67.1"
+]
+
+[tool.poetry]
+packages = [
+    { include = "bondspot_scraper" }
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

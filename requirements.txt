@@ -1,0 +1,37 @@
+# Core data handling
+
+pandas>=2.3.1
+numpy>=2.3.1
+
+# Web scraping
+
+requests>=2.32.3
+beautifulsoup4>=4.13.4
+lxml>=6.0.0
+urllib3>=2.5.0
+
+# File formats
+
+openpyxl>=3.1.5
+pyarrow>=20.0.0
+fastparquet>=2024.11.0
+fsspec>=2025.5.1
+cramjam>=2.10.0
+
+# Visualization
+matplotlib>=3.10.3
+
+# Utilities
+
+tqdm>=4.67.1
+holidays>=0.76
+certifi>=2025.7.9
+charset-normalizer>=3.4.2
+colorama>=0.4.6
+packaging>=25.0
+python-dateutil>=2.9.0.post0
+pytz>=2025.2
+six>=1.17.0
+soupsieve>=2.7
+typing_extensions>=4.14.1
+tzdata>=2025.2
