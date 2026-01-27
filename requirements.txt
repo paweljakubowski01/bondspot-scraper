@@ -1,17 +1,14 @@
 # Core data handling
-
 pandas>=2.3.1
 numpy>=2.3.1
 
 # Web scraping
-
 requests>=2.32.3
 beautifulsoup4>=4.13.4
 lxml>=6.0.0
 urllib3>=2.5.0
 
 # File formats
-
 openpyxl>=3.1.5
 pyarrow>=20.0.0
 fastparquet>=2024.11.0
@@ -22,7 +19,6 @@ cramjam>=2.10.0
 matplotlib>=3.10.3
 
 # Utilities
-
 tqdm>=4.67.1
 holidays>=0.76
 certifi>=2025.7.9
